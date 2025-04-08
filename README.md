@@ -1,12 +1,62 @@
-# React + Vite
+# Task Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a task manager application built using React and Vite. It allows users to efficiently manage their tasks through an intuitive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Task Creation:** Easily add new tasks with relevant details.
+- **Task Editing:** Modify existing tasks to update information.
+- **Task Deletion:** Remove tasks that are no longer needed.
+- **Task Completion Tracking:** Mark tasks as complete or incomplete.
+- **Responsive Design:** Accessible on various devices and screen sizes.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To set up the project locally:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Varshihihihi21/taskmanager.git
+Navigate to the project directory:
+
+bash
+Copy
+Edit
+cd taskmanager
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Usage
+To start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Then, open your browser and go to http://localhost:5173 to view the application.
+
+Project Structure
+src/: Contains the main source code for the React application.
+
+public/: Houses static assets and the main HTML file.
+
+index.html: The main HTML file that loads the React application.
+
+package.json: Lists project dependencies and scripts.
+
+vite.config.js: Configuration file for Vite.
+
+Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+
+Create a new branch for your feature or bug fix.
+
+Commit your changes with clear descriptions.
+
+Push your branch and create a pull request.
