@@ -18,28 +18,25 @@ To set up the project locally:
 
    ```bash
    git clone https://github.com/Varshihihihi21/taskmanager.git
-Navigate to the project directory:
 
-bash
-Copy
-Edit
-cd taskmanager
-Install dependencies:
+   
+2.**Navigate to the project directory:**
 
-bash
-Copy
-Edit
+   ```bash 
+      cd taskmanager
+```
+
+3.**Install dependencies:**
+```bash
 npm install
-Usage
-To start the development server:
-
-bash
-Copy
-Edit
 npm run dev
-Then, open your browser and go to http://localhost:5173 to view the application.
+```
 
-Project Structure
+4.**Usage**
+open 
+http://localhost:5173
+
+**Project Structure**
 src/: Contains the main source code for the React application.
 
 public/: Houses static assets and the main HTML file.
@@ -50,7 +47,7 @@ package.json: Lists project dependencies and scripts.
 
 vite.config.js: Configuration file for Vite.
 
-Contributing
+**Contributing**
 Contributions are welcome! To contribute:
 
 Fork the repository.
