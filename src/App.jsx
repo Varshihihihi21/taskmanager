@@ -6,6 +6,7 @@ import Timer from './components/Timer';
 
 const AppContainer = styled.div`
   min-height: 100vh;
+  min-width: 100vw;
   padding: 2rem;
   background: linear-gradient(135deg, #e3f2fd 0%, #f5f3ff 100%);
   display: flex;
