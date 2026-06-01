@@ -90,6 +90,7 @@ const App = () => {
   return (
     <AppContainer>
       <AppHeader>Task Manager</AppHeader>
+      <h1>Whats your task?</h1>
       <TaskForm onAddTask={handleAddTask} />
       <TaskList
         tasks={tasks}
